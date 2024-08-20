@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyNOW | Contact</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="navbar color navbar-expand-lg py-3 font-style">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+          <i class="fa-solid fa-cart-shopping" style="color: #ada9a9"></i>
+          <strong class="text-light ps-2">TrendyNOW</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light btn btn-dark"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="aboutUs.html"
+                >About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="clothes.html"
+                >Clothes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="shoes.html"
+                >Shoes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-dark text-light"
+                href="accessories.html"
+                >Accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active btn btn-dark text-light"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="shopping-cart position-relative">
+          <button
+            type="button"
+            class="btn-cart btn position-relative"
+            onclick="toggleModal()"
+          >
+            <i class="fa-solid fa-bag-shopping" style="color: #ffffff"></i>
+            <span class="basketCount" style="color: black"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Finish -->
+    <div class="container mt-5 font-style">
+      <h2 class="text-center mb-3">CONTACT US</h2>
+      <hr
+        class="border border-dark border-2 opacity-100 small centered-hr mb-5"
+      />
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <div style="text-align: center">
+            <ul class="list-unstyled font-style">
+              <li>7 Saville Street, Malton.North Yorkshire. YO17 7LL UK</li>
+            </ul>
+            <ul class="list-unstyled">
+              <li>
+                <a href="tel:+44-7852992894" style="text-decoration: none">
+                  <i class="fa-solid fa-phone" style="color: black"></i>
+                  <span dir="ltr" style="color: black">+44-7852992894</span></a
+                >
+              </li>
+              <li>
+                <a href="tel:+44-1653697026" style="text-decoration: none"
+                  ><i class="fa-solid fa-phone" style="color: black"></i>
+                  <span dir="ltr" style="color: black">+44-1653697026</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@susiemarrocco.com"
+                  style="text-decoration: none; color: #000000"
+                >
+                  <i
+                    class="fa-regular fa-envelope pe-2"
+                    style="color: #000000"
+                  ></i
+                  >info@trendynow.com</a
+                >
+              </li>
+              <li>
+                <i class="fa-regular fa-clock pe-2" style="color: #020203"></i
+                >Monday-Saturday
+              </li>
+              <li>9.30am - 4.30pm</li>
+            </ul>
+            <br />
+          </div>
+        </div>
+        <div class="col-sm-6 mt-2">
+          <div class="row">
+            <div class="col-sm-6 mt-4">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-sm-6 mt-4">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Surname"
+              />
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button
+              type="submit"
+              class="color text-light rounded font-style py-2"
+            >
+              <h5>Contact Us</h5>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="color text-light font-style">
+      <footer class="container py-4 mt-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+              <div class="row">
+                <div class="col-sm-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #ada9a9"
+                  ></i>
+                </div>
+                <div class="col-sm-11">
+                  <a class="navbar-brand" href="home.html">
+                    <h5 class="text-light ps-1">TrendyNOW</h5></a
+                  >
+                </div>
+              </div>
+              <p class="pt-2 font-style" style="font-size: 0.9rem">
+                Designed and built with all the love in the world by the
+                TrendyNOW team with the <br />
+                help of our contributors.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <h5>Order</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Order</a></li>
+              <li><a class="link-light text-light" href="#">Delivery</a></li>
+              <li>
+                <a class="link-light text-light" href="#"
+                  >Returns And Refunds</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">Order Tracking</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Customer Services</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-light text-light" href="#">Transaction Guide</a>
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">How Can We Help</a>
+              </li>
+              <li><a class="link-light text-light" href="#">Contact Us</a></li>
+              <li><a class="link-light text-light" href="#">Size Chart</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Team</a></li>
+              <li><a class="link-light text-light" href="#">Locations</a></li>
+              <li><a class="link-light text-light" href="#">Privacy</a></li>
+              <li><a class="link-light text-light" href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Join Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="basket font-style" onclick="toggleModal()">
+      <div class="basketItems">
+        <i class="fa-solid fa-x" style="color: #ffffff"></i>
+        <h2 class="title">Your Items</h2>
+        <ul class="basketList" style="color: white">
+          No Items
+        </ul>
+        <div class="basketTotal">
+          <span class="fw-bold fs-5 mb-3 totalPrice" style="color: white">
+          </span>
+          <button class="btnTotal">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

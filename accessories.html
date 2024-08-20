@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyNOW | Accessories</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar color navbar-expand-lg py-3 font-style">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+          <i class="fa-solid fa-cart-shopping" style="color: #ada9a9"></i>
+          <strong class="text-light ps-2">TrendyNOW</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light btn btn-dark"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="aboutUs.html"
+                >About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="clothes.html"
+                >Clothes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="shoes.html"
+                >Shoes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active btn btn-dark text-light"
+                href="accessories.html"
+                >Accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="shopping-cart position-relative">
+          <button
+            type="button"
+            class="btn-cart btn position-relative"
+            onclick="toggleModal()"
+          >
+            <i class="fa-solid fa-bag-shopping" style="color: #ffffff"></i>
+            <span class="basketCount" style="color: black"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 font-style">
+      <h2>Women's Accessories</h2>
+    </div>
+    <div class="container mt-5">
+      <div class="row" id="clothes-container">
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/9f/ce/9fce8e4e14c62e3dfc63e25ebffb0f5b59dcbabd.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Straw Hat</h6>
+              <p class="card-text">$14.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/87/2f/872f1975e90c5ee8e9e14c3236a0ef5aa170e857.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">2 Pairs Hoop Earrings</h6>
+              <p class="card-text">$12.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/f7/21/f72158991fc25f5f44e4333e7eb058c8f97ed40c.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Straw Shopper</h6>
+              <p class="card-text">$17.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/81/9e/819e79458f4724385848be601b11f2dcd7dc6647.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Linen Cap</h6>
+              <p class="card-text">$24.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/95/cd/95cd793f632b458cf0576735765f4023685745ff.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Hair Clip with Bow</h6>
+              <p class="card-text">$14.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/05/c7/05c726e260bda1c08d9ba3d287876c86dfd3ccd4.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Narrow Belt</h6>
+              <p class="card-text">$17.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/2b/88/2b880ba9e89c3879777a5631b98e575e65cbdf42.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Satin Scarf</h6>
+              <p class="card-text">$9.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/5a/b7/5ab70a5ae66580a94c29083f641501ec957ecc36.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Anklet</h6>
+              <p class="card-text">$5.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/e9/ee/e9ee5072d3df87ae227ae02f87c1a7ee92b79bef.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Wide Hoop Earrings</h6>
+              <p class="card-text">$8.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/af/b5/afb512a6eda355180f051829685dc48e72ed90ed.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Cat Eye Sunglasses</h6>
+              <p class="card-text">$17.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/58/34/5834bb32838583e561e4f72a3bbe0e03fa9ee29a.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Heart-bead Necklace</h6>
+              <p class="card-text">$5.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/19/cf/19cf5efaa33149513d39a0da7adeed746529e4d3.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Rectangular Sunglasses</h6>
+              <p class="card-text">$9.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="color text-light font-style">
+      <footer class="container py-4 mt-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+              <div class="row">
+                <div class="col-sm-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #ada9a9"
+                  ></i>
+                </div>
+                <div class="col-sm-11">
+                  <a class="navbar-brand" href="home.html">
+                    <h5 class="text-light ps-1">TrendyNOW</h5></a
+                  >
+                </div>
+              </div>
+              <p class="pt-2 font-style" style="font-size: 0.9rem">
+                Designed and built with all the love in the world by the
+                TrendyNOW team with the <br />
+                help of our contributors.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <h5>Order</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Order</a></li>
+              <li><a class="link-light text-light" href="#">Delivery</a></li>
+              <li>
+                <a class="link-light text-light" href="#"
+                  >Returns And Refunds</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">Order Tracking</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Customer Services</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-light text-light" href="#">Transaction Guide</a>
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">How Can We Help</a>
+              </li>
+              <li><a class="link-light text-light" href="#">Contact Us</a></li>
+              <li><a class="link-light text-light" href="#">Size Chart</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Team</a></li>
+              <li><a class="link-light text-light" href="#">Locations</a></li>
+              <li><a class="link-light text-light" href="#">Privacy</a></li>
+              <li><a class="link-light text-light" href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Join Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="basket font-style" onclick="toggleModal()">
+      <div class="basketItems">
+        <i class="fa-solid fa-x" style="color: #ffffff"></i>
+        <h2 class="title">Your Items</h2>
+        <ul class="basketList" style="color: white">
+          No Items
+        </ul>
+        <div class="basketTotal">
+          <span class="fw-bold fs-5 mb-3 totalPrice" style="color: white">
+          </span>
+          <button class="btnTotal">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

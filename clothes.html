@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyNOW | Clothes</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar color navbar-expand-lg py-3 font-style">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+          <i class="fa-solid fa-cart-shopping" style="color: #ada9a9"></i>
+          <strong class="text-light ps-2">TrendyNOW</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light btn btn-dark"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link text-light btn btn-dark" href="aboutUs.html"
+                >About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active btn btn-dark"
+                href="clothes.html"
+                >Clothes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light btn btn-dark" href="shoes.html"
+                >Shoes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light btn btn-dark"
+                href="accessories.html"
+                >Accessories</a
+              >
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link btn btn-dark text-light" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="shopping-cart position-relative">
+          <button
+            type="button"
+            class="btn-cart btn position-relative"
+            onclick="toggleModal()"
+          >
+            <i class="fa-solid fa-bag-shopping" style="color: #ffffff"></i>
+            <span class="basketCount" style="color: black"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Start Body Part -->
+    <div class="container mt-5 font-style">
+      <h2>Women's Clothes</h2>
+    </div>
+    <div class="container mt-5">
+      <div class="row clothesList">
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0f%2F40%2F0f407ad63aedd97187ca24adc838b7c60ff74302.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]/400/600"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Poplin Bralette Top</h6>
+              <p class="card-text">9.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa8%2F3d%2Fa83d0954c807fb2d61c94187974771127a6eb05c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]/400/600"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Sequined Fishnet Halterneck Dress</h6>
+              <p class="card-text">24.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/27/c1/27c15dedd070303cb98d7306a3be85985d245335.jpg?imwidth=564/400/600"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Off-the-shoulder Bubble-hem Dress</h6>
+              <p class="card-text">24.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/4f/de/4fde8e59d4e320c744ec147823f8b16565eac1b2.jpg?imwidth=564/400/700"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Pullover Muslin Shirt</h6>
+              <p class="card-text">32.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2F61%2F2f6186211defd834c9ece16f5f460d537cddb2bf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]/400/800"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Dress with Eyelet Embroidery</h6>
+              <p class="card-text">84.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/77/cf/77cfd60542d9b373d7a0ab9d53fd11f706eb655f.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Ruffle-trimmed Camisole Top</h6>
+              <p class="card-text">14.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/55/80/55801bef1c04e69bee4e94c337431ed0f1612851.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Ribbed Tank Top</h6>
+              <p class="card-text">19.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/2b/e9/2be917120744933d91bdfb0f1d2f583a69bc1bf9.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Flared Ultra High Jeans</h6>
+              <p class="card-text">34.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/92/17/92170388206f85e4dca85cf2c40586010b3353c7.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">A-line Dress</h6>
+              <p class="card-text">19.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/e9/97/e997cfe7850f19e5b882a3f8b433d22944539323.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Ribbed T-shirt</h6>
+              <p class="card-text">7.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/55/c6/55c6ad659cd9f5f9f5a46da35763be5073f90069.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Long A-line Dress</h6>
+              <p class="card-text">34.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/6a/fb/6afb8c934476ba23e32802c25d28c3c3ab953c22.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Linen Shirt</h6>
+              <p class="card-text">25.99</p>
+              <button type="button" class="card-button btn btn-dark">
+                BUY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="color text-light font-style">
+      <footer class="container py-4 mt-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+              <div class="row">
+                <div class="col-sm-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #ada9a9"
+                  ></i>
+                </div>
+                <div class="col-sm-11">
+                  <a class="navbar-brand" href="home.html">
+                    <h5 class="text-light ps-1">TrendyNOW</h5></a
+                  >
+                </div>
+              </div>
+              <p class="pt-2 font-style" style="font-size: 0.9rem">
+                Designed and built with all the love in the world by the
+                TrendyNOW team with the <br />
+                help of our contributors.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <h5>Order</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Order</a></li>
+              <li><a class="link-light text-light" href="#">Delivery</a></li>
+              <li>
+                <a class="link-light text-light" href="#"
+                  >Returns And Refunds</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">Order Tracking</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Customer Services</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-light text-light" href="#">Transaction Guide</a>
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">How Can We Help</a>
+              </li>
+              <li><a class="link-light text-light" href="#">Contact Us</a></li>
+              <li><a class="link-light text-light" href="#">Size Chart</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Team</a></li>
+              <li><a class="link-light text-light" href="#">Locations</a></li>
+              <li><a class="link-light text-light" href="#">Privacy</a></li>
+              <li><a class="link-light text-light" href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Join Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer End -->
+    <div class="basket font-style" onclick="toggleModal()">
+      <div class="basketItems">
+        <i
+          class="fa-solid fa-x"
+          onclick="toggleModal()"
+          style="color: #ffffff"
+        ></i>
+        <h2 class="title">Your Items</h2>
+        <ul class="basketList" style="color: white">
+          <li class="basketItem">No Items</li>
+        </ul>
+        <div class="basketTotal">
+          <span class="fw-bold fs-5 mb-3 totalPrice" style="color: white">
+          </span>
+          <button class="btnTotal">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendyNOW | Shoes</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar color navbar-expand-lg py-3 font-style">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+          <i class="fa-solid fa-cart-shopping" style="color: #ada9a9"></i>
+          <strong class="text-light ps-2">TrendyNOW</strong></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light btn btn-dark"
+                aria-current="page"
+                href="home.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="aboutUs.html"
+                >About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="clothes.html"
+                >Clothes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active btn btn-dark text-light"
+                href="shoes.html"
+                >Shoes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-dark text-light"
+                href="accessories.html"
+                >Accessories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark text-light" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="shopping-cart position-relative">
+          <button
+            type="button"
+            class="btn-cart btn position-relative"
+            onclick="toggleModal()"
+          >
+            <i class="fa-solid fa-bag-shopping" style="color: #ffffff"></i>
+            <span class="basketCount" style="color: black"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 font-style">
+      <h2>Women's Shoes</h2>
+    </div>
+    <div class="container mt-5">
+      <div class="row" id="clothes-container">
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/51/bf/51bf7a5c7f3d07176cb6a2a73c472a4488714531.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Braided Sandals</h6>
+              <p class="card-text">$26.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/64/cd/64cd1fc30bd317dcd6b78a202e93ad9dfecfff43.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Canvas Sneakers</h6>
+              <p class="card-text">$26.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/eb/25/eb257f9f6ed00c5e1e4e7af964a26d88fdb47005.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Block-heeled Sandals</h6>
+              <p class="card-text">$34.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/82/fa/82fa905c05d1f604890fde8e163e627962925fb4.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Wedge-heel Espadrilles</h6>
+              <p class="card-text">$34.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/14/44/1444b4e35c3bf56cd312633375e58fbce9c5a639.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Block-heeled Sandals</h6>
+              <p class="card-text">$29.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/d9/11/d911cf7f11bdc576e3a5597ab6a252bcabe901bc.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Ballet Flats</h6>
+              <p class="card-text">$19.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/9d/1d/9d1d13ff351004c2bf31fdcc3e7a7cfd6074f840.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Loafers</h6>
+              <p class="card-text">$32.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/a6/7d/a67d452bf14f15886138347e770bc2bbd9b1ccba.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Sandals</h6>
+              <p class="card-text">$34.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/4f/d8/4fd8a9266828d518517144d81b9832e30a03c735.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Canvas Sneakers</h6>
+              <p class="card-text">$26.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/f8/fe/f8fe58f91ac84751bff592803c9c9ed3eb927869.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Heeled Sandals with Monogram</h6>
+              <p class="card-text">$40.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://image.hm.com/assets/hm/25/09/25097fcbd3e9755553fdb8aa5bb577697fc42499.jpg?imwidth=564"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Heeled Sandals</h6>
+              <p class="card-text">$34.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fe9%2F91e9f1b6ed2a036d0ebeffdc399a3d36968113f2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h6 class="card-title">Canvas Espadrilles</h6>
+              <p class="card-text">$26.99</p>
+              <a href="#" class="card-button btn btn-dark">BUY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="color text-light font-style">
+      <footer class="container py-4 mt-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+              <div class="row">
+                <div class="col-sm-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #ada9a9"
+                  ></i>
+                </div>
+                <div class="col-sm-11">
+                  <a class="navbar-brand" href="home.html">
+                    <h5 class="text-light ps-1">TrendyNOW</h5></a
+                  >
+                </div>
+              </div>
+              <p class="pt-2 font-style" style="font-size: 0.9rem">
+                Designed and built with all the love in the world by the
+                TrendyNOW team with the <br />
+                help of our contributors.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <h5>Order</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Order</a></li>
+              <li><a class="link-light text-light" href="#">Delivery</a></li>
+              <li>
+                <a class="link-light text-light" href="#"
+                  >Returns And Refunds</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">Order Tracking</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Customer Services</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-light text-light" href="#">Transaction Guide</a>
+              </li>
+              <li>
+                <a class="link-light text-light" href="#">How Can We Help</a>
+              </li>
+              <li><a class="link-light text-light" href="#">Contact Us</a></li>
+              <li><a class="link-light text-light" href="#">Size Chart</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Team</a></li>
+              <li><a class="link-light text-light" href="#">Locations</a></li>
+              <li><a class="link-light text-light" href="#">Privacy</a></li>
+              <li><a class="link-light text-light" href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Join Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-light text-light" href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="basket font-style" onclick="toggleModal()">
+      <div class="basketItems">
+        <i class="fa-solid fa-x" style="color: #ffffff"></i>
+        <h2 class="title">Your Items</h2>
+        <ul class="basketList" style="color: white">
+          No Items
+        </ul>
+        <div class="basketTotal">
+          <span class="fw-bold fs-5 mb-3 totalPrice" style="color: white">
+          </span>
+          <button class="btnTotal">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
