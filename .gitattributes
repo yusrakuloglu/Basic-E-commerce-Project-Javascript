@@ -1,2 +1,2 @@
-*.gs linguist-language=Javascript
-css/* linguist-vendored
+*.html linguist-detectable=false
+*.css linguist-detectable=false
